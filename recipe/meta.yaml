@@ -1,4 +1,4 @@
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: sqlparse
@@ -7,7 +7,7 @@ package:
 source:
   fn: sqlparse-{{ version }}.tar.gz
   url: https://github.com/andialbrecht/sqlparse/archive/{{ version }}.tar.gz
-  sha256: a1919e7895a66d285395a67e09f865610e06330e8a2d309ad76c09390d4c7b47
+  sha256: 33cec505e752a237efcc2466763d3aef5f2dcbe1af301f607a39fe7b427a1513
 
 build:
   number: 0
