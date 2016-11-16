@@ -35,7 +35,6 @@ conda search sqlparse --channel conda-forge
 ```
 
 
-
 About conda-forge
 =================
 
