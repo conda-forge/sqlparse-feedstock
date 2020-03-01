@@ -11,24 +11,28 @@ source:
 build:
   number: 0
   noarch: python
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
   entry_points:
     - sqlformat = sqlparse.__main__:main
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
 
 test:
+  requires:
+    - pip
+  commands:
+    - pip check
   imports:
     - sqlparse
 
 about:
   home: https://github.com/andialbrecht/sqlparse
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: A non-validating SQL parser module for Python.
   description: |
