@@ -3,7 +3,7 @@ About sqlparse
 
 Home: https://github.com/andialbrecht/sqlparse
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
