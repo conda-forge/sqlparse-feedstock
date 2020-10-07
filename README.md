@@ -5,9 +5,13 @@ Home: https://github.com/andialbrecht/sqlparse
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sqlparse-feedstock/blob/master/LICENSE.txt)
 
 Summary: A non-validating SQL parser module for Python.
+
+Development: https://github.com/andialbrecht/sqlparse
+
+Documentation: https://sqlparse.readthedocs.org
 
 sqlparse is a non-validating SQL parser for Python. It provides support
 for parsing, splitting and formatting SQL statements.
