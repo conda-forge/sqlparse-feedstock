@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 
 package:
   name: sqlparse
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sqlparse/sqlparse-{{ version }}.tar.gz
-  sha256: e162203737712307dfe78860cc56c8da8a852ab2ee33750e33aeadf38d12c548
+  sha256: d59e473424ae7470778fa4dd0dd7bb666ff324f0a6106c29deb5946ea5367f04
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - sqlformat = sqlparse.__main__:main
 
