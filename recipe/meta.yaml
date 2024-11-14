@@ -27,12 +27,12 @@ requirements:
 test:
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
     - sqlformat --help
   imports:
     - sqlparse
-    - python {{ python_min }}
 
 about:
   home: https://github.com/andialbrecht/sqlparse
