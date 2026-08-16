@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: sqlparse
-  version: "0.5.5"
+  version: "0.6.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/sqlparse-${{ version }}.tar.gz
-  sha256: e20d4a9b0b8585fdf63b10d30066c7c94c5d7a7ec47c889a2d83a3caa93ff28e
+  sha256: 113c35c75365ab9cc9c7231d68c6428fb11c085fc8e9eb1ad659b7ddbf6cd2b9
 
 build:
   number: 0
